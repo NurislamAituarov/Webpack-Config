@@ -1,0 +1,10 @@
+@use 'global';
+@use 'fonts';
+@import 'normalize.css';
+//@import "~bootstrap/scss/bootstrap";
+body {
+  background-color: rgb(97, 97, 97);
+  .container {
+    // background-image: url(../images/webpack.png);
+  }
+}

@@ -1,0 +1,21 @@
+$primaryColor: rgb(14, 0, 139);
+$secondaryColor: darkslategray;
+
+html {
+  font-family: generalFont;
+}
+
+h1 {
+  color: $primaryColor;
+}
+.container {
+  .__subtitle {
+    color: $secondaryColor;
+    display: block;
+    width: 50%;
+    height: 140px;
+    background: url('../images/webpack.png');
+    display: flex;
+    justify-content: center;
+  }
+}
